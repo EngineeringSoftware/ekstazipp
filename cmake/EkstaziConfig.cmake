@@ -1,0 +1,7 @@
+# include(CMakeFindDependencyMacro)
+# find_dependency(Ekstazi 1.0.0)
+set(EKSTAZI_SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/../..)
+include("${CMAKE_CURRENT_LIST_DIR}/EkstaziTargets.cmake")
+set(Ekstazi_INCLUDE_DIRS ${EKSTAZI_SOURCE_DIR}/include)
+set(Ekstazi_LIBRARIES ${EKSTAZI_SOURCE_DIR}/build/libekstazi-lib.a)
+set(Ekstazi_PASS_LIB ${EKSTAZI_SOURCE_DIR}/build/libekstazi-pass.so)
