@@ -1,9 +1,12 @@
 # RTS++
 Regression Test Selection tool for C++
 
+### Dependencies
+
 sha512.h and sha512.cpp can be found in the following repo:
 https://github.com/vocefiscal/vocefiscal-qrcode
 
+### Citation
 
 ```bibtex
 @inproceedings{FuETAL19RTS++,
